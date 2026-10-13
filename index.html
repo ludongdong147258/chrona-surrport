@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<title>Chrona — Legal</title>
+<style>
+  :root {
+    --canvas: #0D0E15;
+    --card: #171924;
+    --border: #232738;
+    --text: #E8EAF2;
+    --text-dim: #9AA0B4;
+    --ember: #FF5E62;
+    --ember-light: #FF9966;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 2rem 1.25rem;
+    background: var(--canvas); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 28rem; width: 100%; }
+  .brand {
+    display: inline-block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.18em;
+    text-transform: uppercase; padding: 0.35rem 0.9rem; border-radius: 999px;
+    border: 1px solid var(--border); color: var(--text-dim); margin-bottom: 1rem;
+  }
+  h1 {
+    margin: 0 0 0.5rem; font-size: 2rem; line-height: 1.2;
+    background: linear-gradient(90deg, var(--ember), var(--ember-light));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  p.sub { color: var(--text-dim); margin: 0 0 2rem; }
+  a.doc {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1.25rem 1.5rem; margin-bottom: 1rem;
+    background: var(--card); border: 1px solid var(--border); border-radius: 1rem;
+    color: var(--text); text-decoration: none; font-size: 1.05rem; font-weight: 600;
+    transition: border-color 150ms ease, transform 150ms ease;
+  }
+  a.doc:hover { border-color: var(--ember); transform: translateY(-1px); }
+  a.doc span { color: var(--text-dim); font-weight: 400; }
+  footer { color: var(--text-dim); font-size: 0.85rem; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<main>
+  <span class="brand">Chrona</span>
+  <h1>Legal</h1>
+  <p class="sub">Visual Focus Timer for iOS</p>
+  <a class="doc" href="privacy.html">Privacy Policy <span>&rarr;</span></a>
+  <a class="doc" href="terms.html">Terms of Service <span>&rarr;</span></a>
+  <footer>Contact: <a href="mailto:fishspotradar@163.com" style="color:var(--ember-light);text-decoration:none">fishspotradar@163.com</a></footer>
+</main>
+</body>
+</html>
